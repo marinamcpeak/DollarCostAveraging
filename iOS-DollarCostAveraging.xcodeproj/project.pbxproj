@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		05C3017227C1B07B00588B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3017127C1B07B00588B11 /* AppDelegate.swift */; };
 		05C3017427C1B07B00588B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3017327C1B07B00588B11 /* SceneDelegate.swift */; };
-		05C3017627C1B07B00588B11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3017527C1B07B00588B11 /* ViewController.swift */; };
+		05C3017627C1B07B00588B11 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3017527C1B07B00588B11 /* SearchTableViewController.swift */; };
 		05C3017927C1B07B00588B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C3017727C1B07B00588B11 /* Main.storyboard */; };
 		05C3017B27C1B07C00588B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C3017A27C1B07C00588B11 /* Assets.xcassets */; };
 		05C3017E27C1B07C00588B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C3017C27C1B07C00588B11 /* LaunchScreen.storyboard */; };
+		05C3018627C1B0C500588B11 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 05C3018527C1B0C500588B11 /* Podfile */; };
+		941B12652B461EABFDADE7F5 /* Pods_iOS_DollarCostAveraging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC83AFB7FB849B29E8745BA /* Pods_iOS_DollarCostAveraging.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05C3016E27C1B07B00588B11 /* iOS-DollarCostAveraging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-DollarCostAveraging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C3017127C1B07B00588B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05C3017327C1B07B00588B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05C3017527C1B07B00588B11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05C3017527C1B07B00588B11 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		05C3017827C1B07B00588B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05C3017A27C1B07C00588B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05C3017D27C1B07C00588B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05C3017F27C1B07C00588B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C3018527C1B0C500588B11 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		89E3695595F056118CCAB92D /* Pods-iOS-DollarCostAveraging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-DollarCostAveraging.release.xcconfig"; path = "Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging.release.xcconfig"; sourceTree = "<group>"; };
+		CAC83AFB7FB849B29E8745BA /* Pods_iOS_DollarCostAveraging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_DollarCostAveraging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB563A0D76E3097B274934B1 /* Pods-iOS-DollarCostAveraging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-DollarCostAveraging.debug.xcconfig"; path = "Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941B12652B461EABFDADE7F5 /* Pods_iOS_DollarCostAveraging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +47,11 @@
 		05C3016527C1B07B00588B11 = {
 			isa = PBXGroup;
 			children = (
+				05C3018527C1B0C500588B11 /* Podfile */,
 				05C3017027C1B07B00588B11 /* iOS-DollarCostAveraging */,
 				05C3016F27C1B07B00588B11 /* Products */,
+				B86262A61831E11FAB94BEB6 /* Pods */,
+				5EF023D747EF665E73B2D82F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +68,30 @@
 			children = (
 				05C3017127C1B07B00588B11 /* AppDelegate.swift */,
 				05C3017327C1B07B00588B11 /* SceneDelegate.swift */,
-				05C3017527C1B07B00588B11 /* ViewController.swift */,
+				05C3017527C1B07B00588B11 /* SearchTableViewController.swift */,
 				05C3017727C1B07B00588B11 /* Main.storyboard */,
 				05C3017A27C1B07C00588B11 /* Assets.xcassets */,
 				05C3017C27C1B07C00588B11 /* LaunchScreen.storyboard */,
 				05C3017F27C1B07C00588B11 /* Info.plist */,
 			);
 			path = "iOS-DollarCostAveraging";
+			sourceTree = "<group>";
+		};
+		5EF023D747EF665E73B2D82F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAC83AFB7FB849B29E8745BA /* Pods_iOS_DollarCostAveraging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B86262A61831E11FAB94BEB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB563A0D76E3097B274934B1 /* Pods-iOS-DollarCostAveraging.debug.xcconfig */,
+				89E3695595F056118CCAB92D /* Pods-iOS-DollarCostAveraging.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05C3018227C1B07C00588B11 /* Build configuration list for PBXNativeTarget "iOS-DollarCostAveraging" */;
 			buildPhases = (
+				D3E02327A051F650EA525F66 /* [CP] Check Pods Manifest.lock */,
 				05C3016A27C1B07B00588B11 /* Sources */,
 				05C3016B27C1B07B00588B11 /* Frameworks */,
 				05C3016C27C1B07B00588B11 /* Resources */,
+				7D27A235BCD28838AC60D26C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +156,61 @@
 			files = (
 				05C3017E27C1B07C00588B11 /* LaunchScreen.storyboard in Resources */,
 				05C3017B27C1B07C00588B11 /* Assets.xcassets in Resources */,
+				05C3018627C1B0C500588B11 /* Podfile in Resources */,
 				05C3017927C1B07B00588B11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D27A235BCD28838AC60D26C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E02327A051F650EA525F66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-DollarCostAveraging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05C3016A27C1B07B00588B11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05C3017627C1B07B00588B11 /* ViewController.swift in Sources */,
+				05C3017627C1B07B00588B11 /* SearchTableViewController.swift in Sources */,
 				05C3017227C1B07B00588B11 /* AppDelegate.swift in Sources */,
 				05C3017427C1B07B00588B11 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +356,7 @@
 		};
 		05C3018327C1B07C00588B11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB563A0D76E3097B274934B1 /* Pods-iOS-DollarCostAveraging.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +385,7 @@
 		};
 		05C3018427C1B07C00588B11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E3695595F056118CCAB92D /* Pods-iOS-DollarCostAveraging.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
