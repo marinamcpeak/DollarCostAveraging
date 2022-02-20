@@ -14,6 +14,9 @@
 		05C3017B27C1B07C00588B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C3017A27C1B07C00588B11 /* Assets.xcassets */; };
 		05C3017E27C1B07C00588B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C3017C27C1B07C00588B11 /* LaunchScreen.storyboard */; };
 		05C3018627C1B0C500588B11 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 05C3018527C1B0C500588B11 /* Podfile */; };
+		05C3018A27C2FA3900588B11 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3018927C2FA3900588B11 /* SearchTableViewCell.swift */; };
+		05C3018D27C2FBF600588B11 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3018C27C2FBF600588B11 /* APIService.swift */; };
+		05C3019027C2FF9C00588B11 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3018F27C2FF9C00588B11 /* SearchResults.swift */; };
 		941B12652B461EABFDADE7F5 /* Pods_iOS_DollarCostAveraging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC83AFB7FB849B29E8745BA /* Pods_iOS_DollarCostAveraging.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +29,10 @@
 		05C3017A27C1B07C00588B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05C3017D27C1B07C00588B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05C3017F27C1B07C00588B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05C3018527C1B0C500588B11 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		05C3018527C1B0C500588B11 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		05C3018927C2FA3900588B11 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		05C3018C27C2FBF600588B11 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		05C3018F27C2FF9C00588B11 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
 		89E3695595F056118CCAB92D /* Pods-iOS-DollarCostAveraging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-DollarCostAveraging.release.xcconfig"; path = "Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging.release.xcconfig"; sourceTree = "<group>"; };
 		CAC83AFB7FB849B29E8745BA /* Pods_iOS_DollarCostAveraging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_DollarCostAveraging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB563A0D76E3097B274934B1 /* Pods-iOS-DollarCostAveraging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-DollarCostAveraging.debug.xcconfig"; path = "Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,15 +72,52 @@
 		05C3017027C1B07B00588B11 /* iOS-DollarCostAveraging */ = {
 			isa = PBXGroup;
 			children = (
+				05C3018E27C2FF8B00588B11 /* Model */,
+				05C3018727C2F9FF00588B11 /* Controller */,
+				05C3018827C2FA2300588B11 /* View */,
+				05C3018B27C2FBD100588B11 /* Service */,
 				05C3017127C1B07B00588B11 /* AppDelegate.swift */,
 				05C3017327C1B07B00588B11 /* SceneDelegate.swift */,
-				05C3017527C1B07B00588B11 /* SearchTableViewController.swift */,
 				05C3017727C1B07B00588B11 /* Main.storyboard */,
 				05C3017A27C1B07C00588B11 /* Assets.xcassets */,
 				05C3017C27C1B07C00588B11 /* LaunchScreen.storyboard */,
 				05C3017F27C1B07C00588B11 /* Info.plist */,
 			);
 			path = "iOS-DollarCostAveraging";
+			sourceTree = "<group>";
+		};
+		05C3018727C2F9FF00588B11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05C3017527C1B07B00588B11 /* SearchTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		05C3018827C2FA2300588B11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05C3018927C2FA3900588B11 /* SearchTableViewCell.swift */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		05C3018B27C2FBD100588B11 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				05C3018C27C2FBF600588B11 /* APIService.swift */,
+			);
+			name = Service;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		05C3018E27C2FF8B00588B11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05C3018F27C2FF9C00588B11 /* SearchResults.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		5EF023D747EF665E73B2D82F /* Frameworks */ = {
@@ -211,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				05C3017627C1B07B00588B11 /* SearchTableViewController.swift in Sources */,
+				05C3018D27C2FBF600588B11 /* APIService.swift in Sources */,
+				05C3018A27C2FA3900588B11 /* SearchTableViewCell.swift in Sources */,
 				05C3017227C1B07B00588B11 /* AppDelegate.swift in Sources */,
+				05C3019027C2FF9C00588B11 /* SearchResults.swift in Sources */,
 				05C3017427C1B07B00588B11 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
