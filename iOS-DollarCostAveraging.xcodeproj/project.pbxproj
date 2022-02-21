@@ -72,10 +72,10 @@
 		05C3017027C1B07B00588B11 /* iOS-DollarCostAveraging */ = {
 			isa = PBXGroup;
 			children = (
-				05C3018E27C2FF8B00588B11 /* Model */,
 				05C3018727C2F9FF00588B11 /* Controller */,
-				05C3018827C2FA2300588B11 /* View */,
-				05C3018B27C2FBD100588B11 /* Service */,
+				05C3019127C30ED200588B11 /* View */,
+				05C3018E27C2FF8B00588B11 /* Model */,
+				05C3019227C30EDE00588B11 /* Service */,
 				05C3017127C1B07B00588B11 /* AppDelegate.swift */,
 				05C3017327C1B07B00588B11 /* SceneDelegate.swift */,
 				05C3017727C1B07B00588B11 /* Main.storyboard */,
@@ -94,30 +94,28 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		05C3018827C2FA2300588B11 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				05C3018927C2FA3900588B11 /* SearchTableViewCell.swift */,
-			);
-			name = View;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		05C3018B27C2FBD100588B11 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				05C3018C27C2FBF600588B11 /* APIService.swift */,
-			);
-			name = Service;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		05C3018E27C2FF8B00588B11 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				05C3018F27C2FF9C00588B11 /* SearchResults.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		05C3019127C30ED200588B11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05C3018927C2FA3900588B11 /* SearchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05C3019227C30EDE00588B11 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				05C3018C27C2FBF600588B11 /* APIService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		5EF023D747EF665E73B2D82F /* Frameworks */ = {
