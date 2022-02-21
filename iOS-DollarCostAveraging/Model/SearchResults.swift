@@ -29,5 +29,3 @@ struct SearchResult: Decodable {
     case currency = "8. currency"
   }
 }
-
-
