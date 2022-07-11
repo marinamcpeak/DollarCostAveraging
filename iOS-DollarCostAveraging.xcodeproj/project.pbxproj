@@ -7,160 +7,144 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05C3017227C1B07B00588B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3017127C1B07B00588B11 /* AppDelegate.swift */; };
-		05C3017427C1B07B00588B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3017327C1B07B00588B11 /* SceneDelegate.swift */; };
-		05C3017627C1B07B00588B11 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3017527C1B07B00588B11 /* SearchTableViewController.swift */; };
-		05C3017927C1B07B00588B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C3017727C1B07B00588B11 /* Main.storyboard */; };
-		05C3017B27C1B07C00588B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C3017A27C1B07C00588B11 /* Assets.xcassets */; };
-		05C3017E27C1B07C00588B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C3017C27C1B07C00588B11 /* LaunchScreen.storyboard */; };
-		05C3018627C1B0C500588B11 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 05C3018527C1B0C500588B11 /* Podfile */; };
-		05C3018A27C2FA3900588B11 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3018927C2FA3900588B11 /* SearchTableViewCell.swift */; };
-		05C3018D27C2FBF600588B11 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3018C27C2FBF600588B11 /* APIService.swift */; };
-		05C3019027C2FF9C00588B11 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3018F27C2FF9C00588B11 /* SearchResults.swift */; };
-		05C3019427C3145500588B11 /* SearchPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3019327C3145500588B11 /* SearchPlaceholderView.swift */; };
-		05C3019727C31AE500588B11 /* UIAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3019627C31AE500588B11 /* UIAnimation.swift */; };
-		941B12652B461EABFDADE7F5 /* Pods_iOS_DollarCostAveraging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC83AFB7FB849B29E8745BA /* Pods_iOS_DollarCostAveraging.framework */; };
+		058C53A4287CDACA00235177 /* iOS_DollarCostAveragingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53A3287CDACA00235177 /* iOS_DollarCostAveragingApp.swift */; };
+		058C53A6287CDACA00235177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53A5287CDACA00235177 /* ContentView.swift */; };
+		058C53A8287CDACB00235177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058C53A7287CDACB00235177 /* Assets.xcassets */; };
+		058C53AB287CDACB00235177 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058C53AA287CDACB00235177 /* Preview Assets.xcassets */; };
+		058C53B5287CDACB00235177 /* iOS_DollarCostAveragingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53B4287CDACB00235177 /* iOS_DollarCostAveragingTests.swift */; };
+		058C53BF287CDACB00235177 /* iOS_DollarCostAveragingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53BE287CDACB00235177 /* iOS_DollarCostAveragingUITests.swift */; };
+		058C53C1287CDACB00235177 /* iOS_DollarCostAveragingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53C0287CDACB00235177 /* iOS_DollarCostAveragingUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		058C53B1287CDACB00235177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058C5398287CDACA00235177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058C539F287CDACA00235177;
+			remoteInfo = "iOS-DollarCostAveraging";
+		};
+		058C53BB287CDACB00235177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058C5398287CDACA00235177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058C539F287CDACA00235177;
+			remoteInfo = "iOS-DollarCostAveraging";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		05C3016E27C1B07B00588B11 /* iOS-DollarCostAveraging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-DollarCostAveraging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05C3017127C1B07B00588B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05C3017327C1B07B00588B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05C3017527C1B07B00588B11 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
-		05C3017827C1B07B00588B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		05C3017A27C1B07C00588B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05C3017D27C1B07C00588B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		05C3017F27C1B07C00588B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05C3018527C1B0C500588B11 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		05C3018927C2FA3900588B11 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
-		05C3018C27C2FBF600588B11 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
-		05C3018F27C2FF9C00588B11 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
-		05C3019327C3145500588B11 /* SearchPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceholderView.swift; sourceTree = "<group>"; };
-		05C3019627C31AE500588B11 /* UIAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimation.swift; sourceTree = "<group>"; };
-		89E3695595F056118CCAB92D /* Pods-iOS-DollarCostAveraging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-DollarCostAveraging.release.xcconfig"; path = "Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging.release.xcconfig"; sourceTree = "<group>"; };
-		CAC83AFB7FB849B29E8745BA /* Pods_iOS_DollarCostAveraging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_DollarCostAveraging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB563A0D76E3097B274934B1 /* Pods-iOS-DollarCostAveraging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-DollarCostAveraging.debug.xcconfig"; path = "Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging.debug.xcconfig"; sourceTree = "<group>"; };
+		058C53A0287CDACA00235177 /* iOS-DollarCostAveraging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-DollarCostAveraging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058C53A3287CDACA00235177 /* iOS_DollarCostAveragingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DollarCostAveragingApp.swift; sourceTree = "<group>"; };
+		058C53A5287CDACA00235177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		058C53A7287CDACB00235177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		058C53AA287CDACB00235177 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		058C53B0287CDACB00235177 /* iOS-DollarCostAveragingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-DollarCostAveragingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058C53B4287CDACB00235177 /* iOS_DollarCostAveragingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DollarCostAveragingTests.swift; sourceTree = "<group>"; };
+		058C53BA287CDACB00235177 /* iOS-DollarCostAveragingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-DollarCostAveragingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058C53BE287CDACB00235177 /* iOS_DollarCostAveragingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DollarCostAveragingUITests.swift; sourceTree = "<group>"; };
+		058C53C0287CDACB00235177 /* iOS_DollarCostAveragingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DollarCostAveragingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05C3016B27C1B07B00588B11 /* Frameworks */ = {
+		058C539D287CDACA00235177 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				941B12652B461EABFDADE7F5 /* Pods_iOS_DollarCostAveraging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058C53AD287CDACB00235177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058C53B7287CDACB00235177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05C3016527C1B07B00588B11 = {
+		058C5397287CDACA00235177 = {
 			isa = PBXGroup;
 			children = (
-				05C3018527C1B0C500588B11 /* Podfile */,
-				05C3017027C1B07B00588B11 /* iOS-DollarCostAveraging */,
-				05C3016F27C1B07B00588B11 /* Products */,
-				B86262A61831E11FAB94BEB6 /* Pods */,
-				5EF023D747EF665E73B2D82F /* Frameworks */,
+				058C53A2287CDACA00235177 /* iOS-DollarCostAveraging */,
+				058C53B3287CDACB00235177 /* iOS-DollarCostAveragingTests */,
+				058C53BD287CDACB00235177 /* iOS-DollarCostAveragingUITests */,
+				058C53A1287CDACA00235177 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		05C3016F27C1B07B00588B11 /* Products */ = {
+		058C53A1287CDACA00235177 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05C3016E27C1B07B00588B11 /* iOS-DollarCostAveraging.app */,
+				058C53A0287CDACA00235177 /* iOS-DollarCostAveraging.app */,
+				058C53B0287CDACB00235177 /* iOS-DollarCostAveragingTests.xctest */,
+				058C53BA287CDACB00235177 /* iOS-DollarCostAveragingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05C3017027C1B07B00588B11 /* iOS-DollarCostAveraging */ = {
+		058C53A2287CDACA00235177 /* iOS-DollarCostAveraging */ = {
 			isa = PBXGroup;
 			children = (
-				05C3019527C31ACD00588B11 /* Protocol */,
-				05C3018727C2F9FF00588B11 /* Controller */,
-				05C3019127C30ED200588B11 /* View */,
-				05C3018E27C2FF8B00588B11 /* Model */,
-				05C3019227C30EDE00588B11 /* Service */,
-				05C3017127C1B07B00588B11 /* AppDelegate.swift */,
-				05C3017327C1B07B00588B11 /* SceneDelegate.swift */,
-				05C3017727C1B07B00588B11 /* Main.storyboard */,
-				05C3017A27C1B07C00588B11 /* Assets.xcassets */,
-				05C3017C27C1B07C00588B11 /* LaunchScreen.storyboard */,
-				05C3017F27C1B07C00588B11 /* Info.plist */,
+				058C53A3287CDACA00235177 /* iOS_DollarCostAveragingApp.swift */,
+				058C53CD287CDC9700235177 /* Views */,
+				058C53A7287CDACB00235177 /* Assets.xcassets */,
+				058C53A9287CDACB00235177 /* Preview Content */,
 			);
 			path = "iOS-DollarCostAveraging";
 			sourceTree = "<group>";
 		};
-		05C3018727C2F9FF00588B11 /* Controller */ = {
+		058C53A9287CDACB00235177 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				05C3017527C1B07B00588B11 /* SearchTableViewController.swift */,
+				058C53AA287CDACB00235177 /* Preview Assets.xcassets */,
 			);
-			path = Controller;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		05C3018E27C2FF8B00588B11 /* Model */ = {
+		058C53B3287CDACB00235177 /* iOS-DollarCostAveragingTests */ = {
 			isa = PBXGroup;
 			children = (
-				05C3018F27C2FF9C00588B11 /* SearchResults.swift */,
+				058C53B4287CDACB00235177 /* iOS_DollarCostAveragingTests.swift */,
 			);
-			path = Model;
+			path = "iOS-DollarCostAveragingTests";
 			sourceTree = "<group>";
 		};
-		05C3019127C30ED200588B11 /* View */ = {
+		058C53BD287CDACB00235177 /* iOS-DollarCostAveragingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				05C3018927C2FA3900588B11 /* SearchTableViewCell.swift */,
-				05C3019327C3145500588B11 /* SearchPlaceholderView.swift */,
+				058C53BE287CDACB00235177 /* iOS_DollarCostAveragingUITests.swift */,
+				058C53C0287CDACB00235177 /* iOS_DollarCostAveragingUITestsLaunchTests.swift */,
 			);
-			path = View;
+			path = "iOS-DollarCostAveragingUITests";
 			sourceTree = "<group>";
 		};
-		05C3019227C30EDE00588B11 /* Service */ = {
+		058C53CD287CDC9700235177 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				05C3018C27C2FBF600588B11 /* APIService.swift */,
+				058C53A5287CDACA00235177 /* ContentView.swift */,
 			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		05C3019527C31ACD00588B11 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				05C3019627C31AE500588B11 /* UIAnimation.swift */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		5EF023D747EF665E73B2D82F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CAC83AFB7FB849B29E8745BA /* Pods_iOS_DollarCostAveraging.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B86262A61831E11FAB94BEB6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EB563A0D76E3097B274934B1 /* Pods-iOS-DollarCostAveraging.debug.xcconfig */,
-				89E3695595F056118CCAB92D /* Pods-iOS-DollarCostAveraging.release.xcconfig */,
-			);
-			path = Pods;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05C3016D27C1B07B00588B11 /* iOS-DollarCostAveraging */ = {
+		058C539F287CDACA00235177 /* iOS-DollarCostAveraging */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05C3018227C1B07C00588B11 /* Build configuration list for PBXNativeTarget "iOS-DollarCostAveraging" */;
+			buildConfigurationList = 058C53C4287CDACB00235177 /* Build configuration list for PBXNativeTarget "iOS-DollarCostAveraging" */;
 			buildPhases = (
-				D3E02327A051F650EA525F66 /* [CP] Check Pods Manifest.lock */,
-				05C3016A27C1B07B00588B11 /* Sources */,
-				05C3016B27C1B07B00588B11 /* Frameworks */,
-				05C3016C27C1B07B00588B11 /* Resources */,
-				7D27A235BCD28838AC60D26C /* [CP] Embed Pods Frameworks */,
+				058C539C287CDACA00235177 /* Sources */,
+				058C539D287CDACA00235177 /* Frameworks */,
+				058C539E287CDACA00235177 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -168,25 +152,69 @@
 			);
 			name = "iOS-DollarCostAveraging";
 			productName = "iOS-DollarCostAveraging";
-			productReference = 05C3016E27C1B07B00588B11 /* iOS-DollarCostAveraging.app */;
+			productReference = 058C53A0287CDACA00235177 /* iOS-DollarCostAveraging.app */;
 			productType = "com.apple.product-type.application";
+		};
+		058C53AF287CDACB00235177 /* iOS-DollarCostAveragingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058C53C7287CDACB00235177 /* Build configuration list for PBXNativeTarget "iOS-DollarCostAveragingTests" */;
+			buildPhases = (
+				058C53AC287CDACB00235177 /* Sources */,
+				058C53AD287CDACB00235177 /* Frameworks */,
+				058C53AE287CDACB00235177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058C53B2287CDACB00235177 /* PBXTargetDependency */,
+			);
+			name = "iOS-DollarCostAveragingTests";
+			productName = "iOS-DollarCostAveragingTests";
+			productReference = 058C53B0287CDACB00235177 /* iOS-DollarCostAveragingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		058C53B9287CDACB00235177 /* iOS-DollarCostAveragingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058C53CA287CDACB00235177 /* Build configuration list for PBXNativeTarget "iOS-DollarCostAveragingUITests" */;
+			buildPhases = (
+				058C53B6287CDACB00235177 /* Sources */,
+				058C53B7287CDACB00235177 /* Frameworks */,
+				058C53B8287CDACB00235177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058C53BC287CDACB00235177 /* PBXTargetDependency */,
+			);
+			name = "iOS-DollarCostAveragingUITests";
+			productName = "iOS-DollarCostAveragingUITests";
+			productReference = 058C53BA287CDACB00235177 /* iOS-DollarCostAveragingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		05C3016627C1B07B00588B11 /* Project object */ = {
+		058C5398287CDACA00235177 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					05C3016D27C1B07B00588B11 = {
-						CreatedOnToolsVersion = 13.2.1;
+					058C539F287CDACA00235177 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					058C53AF287CDACB00235177 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 058C539F287CDACA00235177;
+					};
+					058C53B9287CDACB00235177 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 058C539F287CDACA00235177;
 					};
 				};
 			};
-			buildConfigurationList = 05C3016927C1B07B00588B11 /* Build configuration list for PBXProject "iOS-DollarCostAveraging" */;
+			buildConfigurationList = 058C539B287CDACA00235177 /* Build configuration list for PBXProject "iOS-DollarCostAveraging" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,118 +222,94 @@
 				en,
 				Base,
 			);
-			mainGroup = 05C3016527C1B07B00588B11;
-			productRefGroup = 05C3016F27C1B07B00588B11 /* Products */;
+			mainGroup = 058C5397287CDACA00235177;
+			productRefGroup = 058C53A1287CDACA00235177 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05C3016D27C1B07B00588B11 /* iOS-DollarCostAveraging */,
+				058C539F287CDACA00235177 /* iOS-DollarCostAveraging */,
+				058C53AF287CDACB00235177 /* iOS-DollarCostAveragingTests */,
+				058C53B9287CDACB00235177 /* iOS-DollarCostAveragingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05C3016C27C1B07B00588B11 /* Resources */ = {
+		058C539E287CDACA00235177 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05C3017E27C1B07C00588B11 /* LaunchScreen.storyboard in Resources */,
-				05C3017B27C1B07C00588B11 /* Assets.xcassets in Resources */,
-				05C3018627C1B0C500588B11 /* Podfile in Resources */,
-				05C3017927C1B07B00588B11 /* Main.storyboard in Resources */,
+				058C53AB287CDACB00235177 /* Preview Assets.xcassets in Resources */,
+				058C53A8287CDACB00235177 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058C53AE287CDACB00235177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058C53B8287CDACB00235177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		7D27A235BCD28838AC60D26C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-DollarCostAveraging/Pods-iOS-DollarCostAveraging-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D3E02327A051F650EA525F66 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOS-DollarCostAveraging-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		05C3016A27C1B07B00588B11 /* Sources */ = {
+		058C539C287CDACA00235177 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05C3017627C1B07B00588B11 /* SearchTableViewController.swift in Sources */,
-				05C3018D27C2FBF600588B11 /* APIService.swift in Sources */,
-				05C3019727C31AE500588B11 /* UIAnimation.swift in Sources */,
-				05C3018A27C2FA3900588B11 /* SearchTableViewCell.swift in Sources */,
-				05C3017227C1B07B00588B11 /* AppDelegate.swift in Sources */,
-				05C3019027C2FF9C00588B11 /* SearchResults.swift in Sources */,
-				05C3017427C1B07B00588B11 /* SceneDelegate.swift in Sources */,
-				05C3019427C3145500588B11 /* SearchPlaceholderView.swift in Sources */,
+				058C53A6287CDACA00235177 /* ContentView.swift in Sources */,
+				058C53A4287CDACA00235177 /* iOS_DollarCostAveragingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058C53AC287CDACB00235177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058C53B5287CDACB00235177 /* iOS_DollarCostAveragingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058C53B6287CDACB00235177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058C53C1287CDACB00235177 /* iOS_DollarCostAveragingUITestsLaunchTests.swift in Sources */,
+				058C53BF287CDACB00235177 /* iOS_DollarCostAveragingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		05C3017727C1B07B00588B11 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05C3017827C1B07B00588B11 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		058C53B2287CDACB00235177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058C539F287CDACA00235177 /* iOS-DollarCostAveraging */;
+			targetProxy = 058C53B1287CDACB00235177 /* PBXContainerItemProxy */;
 		};
-		05C3017C27C1B07C00588B11 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05C3017D27C1B07C00588B11 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+		058C53BC287CDACB00235177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058C539F287CDACA00235177 /* iOS-DollarCostAveraging */;
+			targetProxy = 058C53BB287CDACB00235177 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05C3018027C1B07C00588B11 /* Debug */ = {
+		058C53C2287CDACB00235177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -349,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -359,14 +363,13 @@
 			};
 			name = Debug;
 		};
-		05C3018127C1B07C00588B11 /* Release */ = {
+		058C53C3287CDACB00235177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -404,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -414,20 +417,20 @@
 			};
 			name = Release;
 		};
-		05C3018327C1B07C00588B11 /* Debug */ = {
+		058C53C5287CDACB00235177 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB563A0D76E3097B274934B1 /* Pods-iOS-DollarCostAveraging.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-DollarCostAveraging/Preview Content\"";
 				DEVELOPMENT_TEAM = 69CPQG929Z;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS-DollarCostAveraging/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,20 +446,20 @@
 			};
 			name = Debug;
 		};
-		05C3018427C1B07C00588B11 /* Release */ = {
+		058C53C6287CDACB00235177 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89E3695595F056118CCAB92D /* Pods-iOS-DollarCostAveraging.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-DollarCostAveraging/Preview Content\"";
 				DEVELOPMENT_TEAM = 69CPQG929Z;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS-DollarCostAveraging/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,28 +475,122 @@
 			};
 			name = Release;
 		};
+		058C53C8287CDACB00235177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69CPQG929Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marinamcpeak.iOS-DollarCostAveragingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-DollarCostAveraging.app/iOS-DollarCostAveraging";
+			};
+			name = Debug;
+		};
+		058C53C9287CDACB00235177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69CPQG929Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marinamcpeak.iOS-DollarCostAveragingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-DollarCostAveraging.app/iOS-DollarCostAveraging";
+			};
+			name = Release;
+		};
+		058C53CB287CDACB00235177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69CPQG929Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marinamcpeak.iOS-DollarCostAveragingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-DollarCostAveraging";
+			};
+			name = Debug;
+		};
+		058C53CC287CDACB00235177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69CPQG929Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marinamcpeak.iOS-DollarCostAveragingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-DollarCostAveraging";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05C3016927C1B07B00588B11 /* Build configuration list for PBXProject "iOS-DollarCostAveraging" */ = {
+		058C539B287CDACA00235177 /* Build configuration list for PBXProject "iOS-DollarCostAveraging" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05C3018027C1B07C00588B11 /* Debug */,
-				05C3018127C1B07C00588B11 /* Release */,
+				058C53C2287CDACB00235177 /* Debug */,
+				058C53C3287CDACB00235177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05C3018227C1B07C00588B11 /* Build configuration list for PBXNativeTarget "iOS-DollarCostAveraging" */ = {
+		058C53C4287CDACB00235177 /* Build configuration list for PBXNativeTarget "iOS-DollarCostAveraging" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05C3018327C1B07C00588B11 /* Debug */,
-				05C3018427C1B07C00588B11 /* Release */,
+				058C53C5287CDACB00235177 /* Debug */,
+				058C53C6287CDACB00235177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058C53C7287CDACB00235177 /* Build configuration list for PBXNativeTarget "iOS-DollarCostAveragingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058C53C8287CDACB00235177 /* Debug */,
+				058C53C9287CDACB00235177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058C53CA287CDACB00235177 /* Build configuration list for PBXNativeTarget "iOS-DollarCostAveragingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058C53CB287CDACB00235177 /* Debug */,
+				058C53CC287CDACB00235177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 05C3016627C1B07B00588B11 /* Project object */;
+	rootObject = 058C5398287CDACA00235177 /* Project object */;
 }
