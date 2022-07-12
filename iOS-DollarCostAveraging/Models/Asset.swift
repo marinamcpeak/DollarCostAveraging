@@ -10,13 +10,19 @@ import Foundation
 struct Asset {
     let searchResult: SearchResult
     let timeSeriesMonthlyAdjusted: TimeSeriesMonthlyAdjusted
-    
+
     init() {
         searchResult = SearchResult(symbol: "", name: "", type: "", currency: "")
-        timeSeriesMonthlyAdjusted = TimeSeriesMonthlyAdjusted(meta: Meta(symbol: ""), timeSeries: [:])
+        timeSeriesMonthlyAdjusted = TimeSeriesMonthlyAdjusted(
+            meta: Meta(symbol: ""),
+            timeSeries: [:]
+        )
     }
-    
-    init(searchResult: SearchResult, timeSeriesMonthlyAdjusted: TimeSeriesMonthlyAdjusted) {
+
+    init(
+        searchResult: SearchResult,
+        timeSeriesMonthlyAdjusted: TimeSeriesMonthlyAdjusted
+    ) {
         self.searchResult = searchResult
         self.timeSeriesMonthlyAdjusted = timeSeriesMonthlyAdjusted
     }

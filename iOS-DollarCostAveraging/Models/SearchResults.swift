@@ -15,12 +15,12 @@ struct SearchResults: Decodable {
 }
 
 struct SearchResult: Hashable, Decodable {
-    
+
     let symbol: String
     let name: String
     let type: String
     let currency: String
-    
+
     enum CodingKeys: String, CodingKey {
         case symbol = "1. symbol"
         case name = "2. name"

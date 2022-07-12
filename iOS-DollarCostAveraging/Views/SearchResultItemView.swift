@@ -23,7 +23,8 @@ struct SearchResultItemView: View {
                 .font(.custom("Avenir", size: 16))
                 .lineLimit(4)
                 .frame(maxWidth: 160, alignment: .trailing)
-        }.padding(.horizontal)
+        }
+        .padding(.horizontal)
         .padding(.vertical, 8)
     }
 }

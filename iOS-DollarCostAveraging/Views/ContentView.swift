@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var searchBar: SearchBar = SearchBar()
-    
+
     var body: some View {
         LoadingView(isShowing: $searchBar.loading) {
             NavigationView {
@@ -19,23 +19,27 @@ struct ContentView: View {
                         if searchBar.mode == .onboarding {
                             onboarding
                                 .padding(.bottom, geo.safeAreaInsets.top)
-                        } else if let result = searchBar.searchResults {
+                        }
+                        else if let result = searchBar.searchResults {
                             List(result.items, id: \.self) { item in
                                 Button {
                                     searchBar.handleSelection(for: item.symbol, searchResult: item)
                                 } label: {
                                     SearchResultItemView(result: item)
                                         .background(Color.white)
-                                }.buttonStyle(PlainButtonStyle())
-                            }.listStyle(PlainListStyle())
+                                }
+                                .buttonStyle(PlainButtonStyle())
+                            }
+                            .listStyle(PlainListStyle())
                         }
-                    }.add(self.searchBar)
-                        .navigationBarTitle("Search")
+                    }
+                    .add(self.searchBar)
+                    .navigationBarTitle("Search")
                 }
             }
         }
     }
-    
+
     var onboarding: some View {
         VStack(spacing: 24) {
             Image("imLaunch")
@@ -45,7 +49,8 @@ struct ContentView: View {
             Text("Search for companies to calculate potential returns via dollar cost averaging")
                 .font(.custom("AvenirNext-Medium", size: 14))
                 .multilineTextAlignment(.center)
-        }.padding(.horizontal, 24)
+        }
+        .padding(.horizontal, 24)
     }
 }
 
@@ -54,3 +59,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
