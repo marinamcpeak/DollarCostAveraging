@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0520D06B287DE76B00048B47 /* ViewControllerResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D06A287DE76B00048B47 /* ViewControllerResolver.swift */; };
+		0520D06E287DE7B100048B47 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D06D287DE7B100048B47 /* APIService.swift */; };
+		0520D070287DE7FE00048B47 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D06F287DE7FE00048B47 /* LoadingView.swift */; };
+		0520D074287DE84E00048B47 /* SearchResultItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D073287DE84E00048B47 /* SearchResultItemView.swift */; };
+		0520D077287DE89200048B47 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D076287DE89200048B47 /* Asset.swift */; };
+		0520D079287DE8AD00048B47 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D078287DE8AD00048B47 /* SearchResults.swift */; };
+		0520D07B287DE8D300048B47 /* TimeSeriesMonthlyAdjusted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D07A287DE8D300048B47 /* TimeSeriesMonthlyAdjusted.swift */; };
+		0520D07E287DE90500048B47 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D07D287DE90500048B47 /* StringExtensions.swift */; };
+		0520D080287DEAFB00048B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D07F287DEAFB00048B47 /* ContentView.swift */; };
 		058C53A4287CDACA00235177 /* iOS_DollarCostAveragingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53A3287CDACA00235177 /* iOS_DollarCostAveragingApp.swift */; };
-		058C53A6287CDACA00235177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53A5287CDACA00235177 /* ContentView.swift */; };
 		058C53A8287CDACB00235177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058C53A7287CDACB00235177 /* Assets.xcassets */; };
 		058C53AB287CDACB00235177 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058C53AA287CDACB00235177 /* Preview Assets.xcassets */; };
 		058C53B5287CDACB00235177 /* iOS_DollarCostAveragingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53B4287CDACB00235177 /* iOS_DollarCostAveragingTests.swift */; };
 		058C53BF287CDACB00235177 /* iOS_DollarCostAveragingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53BE287CDACB00235177 /* iOS_DollarCostAveragingUITests.swift */; };
 		058C53C1287CDACB00235177 /* iOS_DollarCostAveragingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53C0287CDACB00235177 /* iOS_DollarCostAveragingUITestsLaunchTests.swift */; };
+		058C53D0287CDEA100235177 /* SearchControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53CF287CDEA100235177 /* SearchControllerProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0520D06A287DE76B00048B47 /* ViewControllerResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerResolver.swift; sourceTree = "<group>"; };
+		0520D06D287DE7B100048B47 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		0520D06F287DE7FE00048B47 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0520D073287DE84E00048B47 /* SearchResultItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultItemView.swift; sourceTree = "<group>"; };
+		0520D076287DE89200048B47 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		0520D078287DE8AD00048B47 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		0520D07A287DE8D300048B47 /* TimeSeriesMonthlyAdjusted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSeriesMonthlyAdjusted.swift; sourceTree = "<group>"; };
+		0520D07D287DE90500048B47 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		0520D07F287DEAFB00048B47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		058C53A0287CDACA00235177 /* iOS-DollarCostAveraging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-DollarCostAveraging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		058C53A3287CDACA00235177 /* iOS_DollarCostAveragingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DollarCostAveragingApp.swift; sourceTree = "<group>"; };
-		058C53A5287CDACA00235177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		058C53A7287CDACB00235177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058C53AA287CDACB00235177 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		058C53B0287CDACB00235177 /* iOS-DollarCostAveragingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-DollarCostAveragingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +61,7 @@
 		058C53BA287CDACB00235177 /* iOS-DollarCostAveragingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-DollarCostAveragingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		058C53BE287CDACB00235177 /* iOS_DollarCostAveragingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DollarCostAveragingUITests.swift; sourceTree = "<group>"; };
 		058C53C0287CDACB00235177 /* iOS_DollarCostAveragingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DollarCostAveragingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		058C53CF287CDEA100235177 /* SearchControllerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchControllerProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0520D06C287DE79D00048B47 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0520D06D287DE7B100048B47 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0520D075287DE87B00048B47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0520D076287DE89200048B47 /* Asset.swift */,
+				0520D078287DE8AD00048B47 /* SearchResults.swift */,
+				0520D07A287DE8D300048B47 /* TimeSeriesMonthlyAdjusted.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0520D07C287DE8F200048B47 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0520D07D287DE90500048B47 /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		058C5397287CDACA00235177 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +139,10 @@
 			isa = PBXGroup;
 			children = (
 				058C53A3287CDACA00235177 /* iOS_DollarCostAveragingApp.swift */,
+				0520D07C287DE8F200048B47 /* Extensions */,
+				0520D075287DE87B00048B47 /* Models */,
+				0520D06C287DE79D00048B47 /* Service */,
+				058C53CE287CDE6800235177 /* UIKit Views */,
 				058C53CD287CDC9700235177 /* Views */,
 				058C53A7287CDACB00235177 /* Assets.xcassets */,
 				058C53A9287CDACB00235177 /* Preview Content */,
@@ -130,9 +178,20 @@
 		058C53CD287CDC9700235177 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				058C53A5287CDACA00235177 /* ContentView.swift */,
+				0520D06F287DE7FE00048B47 /* LoadingView.swift */,
+				0520D073287DE84E00048B47 /* SearchResultItemView.swift */,
+				0520D07F287DEAFB00048B47 /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		058C53CE287CDE6800235177 /* UIKit Views */ = {
+			isa = PBXGroup;
+			children = (
+				058C53CF287CDEA100235177 /* SearchControllerProvider.swift */,
+				0520D06A287DE76B00048B47 /* ViewControllerResolver.swift */,
+			);
+			path = "UIKit Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +324,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058C53A6287CDACA00235177 /* ContentView.swift in Sources */,
+				0520D07E287DE90500048B47 /* StringExtensions.swift in Sources */,
+				0520D080287DEAFB00048B47 /* ContentView.swift in Sources */,
+				0520D077287DE89200048B47 /* Asset.swift in Sources */,
+				0520D06B287DE76B00048B47 /* ViewControllerResolver.swift in Sources */,
+				0520D079287DE8AD00048B47 /* SearchResults.swift in Sources */,
+				0520D06E287DE7B100048B47 /* APIService.swift in Sources */,
+				0520D074287DE84E00048B47 /* SearchResultItemView.swift in Sources */,
+				0520D07B287DE8D300048B47 /* TimeSeriesMonthlyAdjusted.swift in Sources */,
+				058C53D0287CDEA100235177 /* SearchControllerProvider.swift in Sources */,
 				058C53A4287CDACA00235177 /* iOS_DollarCostAveragingApp.swift in Sources */,
+				0520D070287DE7FE00048B47 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
