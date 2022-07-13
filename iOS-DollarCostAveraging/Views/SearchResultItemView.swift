@@ -13,14 +13,14 @@ struct SearchResultItemView: View {
         HStack(spacing: 16) {
             VStack(alignment: .leading) {
                 Text(result.symbol)
-                    .font(.custom("AvenirNext-DemiBold", size: 18))
+                    .font(.system(size: 18))
                 Text(result.type.appending(" ").appending(result.currency))
                     .foregroundColor(Color(cgColor: UIColor.lightGray.cgColor))
-                    .font(.custom("Avenir", size: 12))
+                    .font(.system(size: 12))
             }
             Spacer()
             Text(result.name)
-                .font(.custom("Avenir", size: 16))
+                .font(.system(size: 16))
                 .lineLimit(4)
                 .frame(maxWidth: 160, alignment: .trailing)
         }

@@ -47,7 +47,7 @@ struct ContentView: View {
                 .aspectRatio(1, contentMode: .fit)
                 .frame(width: 200)
             Text("Search for companies to calculate potential returns via dollar cost averaging")
-                .font(.custom("AvenirNext-Medium", size: 14))
+                .font(.system(size: 14))
                 .multilineTextAlignment(.center)
         }
         .padding(.horizontal, 24)

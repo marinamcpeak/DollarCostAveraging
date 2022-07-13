@@ -16,6 +16,7 @@
 		0520D07B287DE8D300048B47 /* TimeSeriesMonthlyAdjusted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D07A287DE8D300048B47 /* TimeSeriesMonthlyAdjusted.swift */; };
 		0520D07E287DE90500048B47 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D07D287DE90500048B47 /* StringExtensions.swift */; };
 		0520D080287DEAFB00048B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D07F287DEAFB00048B47 /* ContentView.swift */; };
+		0520D086287DFFEE00048B47 /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0520D085287DFFEE00048B47 /* APIServiceError.swift */; };
 		058C53A4287CDACA00235177 /* iOS_DollarCostAveragingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C53A3287CDACA00235177 /* iOS_DollarCostAveragingApp.swift */; };
 		058C53A8287CDACB00235177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058C53A7287CDACB00235177 /* Assets.xcassets */; };
 		058C53AB287CDACB00235177 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058C53AA287CDACB00235177 /* Preview Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		0520D07A287DE8D300048B47 /* TimeSeriesMonthlyAdjusted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSeriesMonthlyAdjusted.swift; sourceTree = "<group>"; };
 		0520D07D287DE90500048B47 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		0520D07F287DEAFB00048B47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0520D085287DFFEE00048B47 /* APIServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
 		058C53A0287CDACA00235177 /* iOS-DollarCostAveraging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-DollarCostAveraging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		058C53A3287CDACA00235177 /* iOS_DollarCostAveragingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DollarCostAveragingApp.swift; sourceTree = "<group>"; };
 		058C53A7287CDACB00235177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				0520D06D287DE7B100048B47 /* APIService.swift */,
+				0520D085287DFFEE00048B47 /* APIServiceError.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0520D07E287DE90500048B47 /* StringExtensions.swift in Sources */,
+				0520D086287DFFEE00048B47 /* APIServiceError.swift in Sources */,
 				0520D080287DEAFB00048B47 /* ContentView.swift in Sources */,
 				0520D077287DE89200048B47 /* Asset.swift in Sources */,
 				0520D06B287DE76B00048B47 /* ViewControllerResolver.swift in Sources */,

@@ -7,10 +7,15 @@
 
 import SwiftUI
 
+/*
+ `UIViewControllerRepresentable` is a protocol to manage a `UIViewController`
+ with the SwiftUI Interface
+*/
 final class ViewControllerResolver: UIViewControllerRepresentable {
 
     let onResolve: (UIViewController) -> Void
 
+    // `onResolve` will escape the scope of the functions it's passed too
     init(onResolve: @escaping (UIViewController) -> Void) {
         self.onResolve = onResolve
     }
